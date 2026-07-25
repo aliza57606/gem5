@@ -1,0 +1,668 @@
+1000000: system.cpu.execute: MinorInst: id=0/46.1/138/614.1204 addr=0x421512 inst="  MOV_M_R : st   rcx, SS:[8*rax + rbp + 0xfffffffffffffe60]" class=MemWrite flags="IsInteger IsStore IsMicroop IsLastMicroop IsFirstMicroop" srcRegs=r0,r5,r1,m154(miscellaneous[154]) destRegs= extMachInst=                                                                                                                                                               0
+1000000: system.cpu.execute: MinorInst: id=0/46.1/138/615.1205 addr=0x42151a inst="  MOV_R_M : ld   rax, DS:[rdx]" class=MemRead flags="IsInteger IsLoad IsMicroop IsLastMicroop IsFirstMicroop" srcRegs=z,r2,m155(miscellaneous[155]) destRegs=r0 extMachInst=                                                                                                                                                               0
+1000000: system.cpu.fetch2: MinorInst: id=0/47.1/140/617 addr=0x4214ca inst="(invalid)" class=No_OpClass flags="IsMacroop"
+1000000: system.cpu.fetch2: MinorInst: id=0/47.1/140/618 addr=0x4214cd inst="(invalid)" class=No_OpClass flags="IsMacroop"
+1000000: global: MinorTrace: state=FetchRunning icacheState=IcacheRunning in_tlb_mem=0/1 streamSeqNum=47 lines=-
+1000000: global: MinorTrace: lines=
+1000000: global: MinorTrace: lines=0/47.1/141
+1000000: global: MinorTrace: lines=-,0/47.1/140
+1000000: global: MinorTrace: prediction=-,-
+1000000: global: MinorTrace: inputIndex=16 havePC=1 predictionSeqNum=1 insts=(0/47.1/140/617,0/47.1/140/618)
+1000000: global: MinorTrace: lines=0/47.1/140,R
+1000000: global: MinorTrace: insts=(0/47.1/140/617,0/47.1/140/618),-
+1000000: global: MinorTrace: insts=(0/46.1/138/616.1206,-)
+1000000: global: MinorTrace: insts=R,,
+1000000: global: MinorTrace: insts=(0/46.1/138/616.1206,-),(0/46.1/138/614.1204,0/46.1/138/615.1205)
+1000000: global: MinorTrace: state=MemoryRunning in_tlb_mem=0/2 stores_in_transfers=0 lastMemBarrier=0
+1000000: global: MinorTrace: addr=
+1000000: global: MinorTrace: addr=,
+1000000: global: MinorTrace: addr=W;0/42.1/125/553.1082;8,W;0/45.1/134/589.1154;8,W;0/46.1/137/601.1178;7,-,- num_unissued_stores=1
+1000000: global: MinorTrace: insts=R,,,,,,
+1000000: global: MinorTrace: busy=
+1000000: global: MinorTrace: insts=- inputIndex=0 streamSeqNum=47 stalled=E,E,E,E,E,E,E,E drainState=NotDraining isInbetweenInsts=1
+1000000: global: MinorTrace: insts=-,-,-
+1000000: global: MinorTrace: insts=-,-,-
+1000000: global: MinorTrace: insts=-,-,-
+1000000: global: MinorTrace: insts=-,-,-,-,-,-,-,-,-
+1000000: global: MinorTrace: insts=-,-,-,-,-,-
+1000000: global: MinorTrace: insts=-,-,-
+1000000: global: MinorTrace: insts=-
+1000000: global: MinorTrace: insts=-
+1000000: global: MinorTrace: insts=,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+1000000: global: MinorTrace: insts=,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+1000000: global: MinorTrace: branch=-,-
+1000000: global: MinorTrace: activity=4 stages=E,1,1,E,E
+1000500: system.cpu.execute: MinorInst: id=0/46.1/138/616.1206 addr=0x42151d inst="  TEST_R_R : and   t0, rax, rax" class=IntAlu flags="IsInteger IsMicroop IsLastMicroop IsFirstMicroop" srcRegs=r0,r0,z,z,z,z,z destRegs=z,c0,c1,z,z,z extMachInst=                                                                                                                                                               0
+1000500: system.cpu.fetch2: MinorInst: id=0/47.1/140/619 addr=0x4214d4 inst="(invalid)" class=No_OpClass flags="IsMacroop"
+1000500: system.cpu.fetch2: MinorInst: id=0/47.1/140/620 addr=0x4214df inst="(invalid)" class=No_OpClass flags="IsMacroop"
+1000500: global: MinorTrace: state=FetchRunning icacheState=IcacheRunning in_tlb_mem=0/1 streamSeqNum=47 lines=B
+1000500: global: MinorTrace: lines=
+1000500: global: MinorTrace: lines=0/47.1/141
+1000500: global: MinorTrace: lines=-,-
+1000500: global: MinorTrace: prediction=-,-
+1000500: global: MinorTrace: inputIndex=32 havePC=1 predictionSeqNum=1 insts=(0/47.1/140/619,0/47.1/140/620)
+1000500: global: MinorTrace: lines=0/47.1/140,R
+1000500: global: MinorTrace: insts=(0/47.1/140/619,0/47.1/140/620),(0/47.1/140/617,0/47.1/140/618)
+1000500: global: MinorTrace: insts=(0/47.1/140/617.1207,0/47.1/140/617.1208)
+1000500: global: MinorTrace: insts=(0/47.1/140/617,0/47.1/140/618),R,
+1000500: global: MinorTrace: insts=(0/47.1/140/617.1207,0/47.1/140/617.1208),(0/46.1/138/616.1206,-)
+1000500: global: MinorTrace: state=MemoryRunning in_tlb_mem=0/2 stores_in_transfers=0 lastMemBarrier=0
+1000500: global: MinorTrace: addr=
+1000500: global: MinorTrace: addr=,
+1000500: global: MinorTrace: addr=W;0/42.1/125/553.1082;8,W;0/46.1/137/601.1178;8,-,-,- num_unissued_stores=0
+1000500: global: MinorTrace: insts=R,,,,,,
+1000500: global: MinorTrace: busy=
+1000500: global: MinorTrace: insts=- inputIndex=0 streamSeqNum=47 stalled=E,E,E,E,E,E,E,E drainState=NotDraining isInbetweenInsts=1
+1000500: global: MinorTrace: insts=-,-,-
+1000500: global: MinorTrace: insts=-,-,-
+1000500: global: MinorTrace: insts=-,-,-
+1000500: global: MinorTrace: insts=-,-,-,-,-,-,-,-,-
+1000500: global: MinorTrace: insts=-,-,-,-,-,-
+1000500: global: MinorTrace: insts=-,-,-
+1000500: global: MinorTrace: insts=-
+1000500: global: MinorTrace: insts=-
+1000500: global: MinorTrace: insts=,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+1000500: global: MinorTrace: insts=,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+1000500: global: MinorTrace: branch=-,-
+1000500: global: MinorTrace: activity=5 stages=E,E,1,1,1
+1001000: system.cpu.fetch1: MinorLine: id=0/47.1/141 size=64 vaddr=0x421500 paddr=0x21500
+1001000: system.cpu.execute: MinorInst: id=0/47.1/140/617.1207 addr=0x4214ca inst="  STOS_E_M : st   rax, ES:[t0 + rdi]" class=MemWrite flags="IsInteger IsStore IsMicroop IsDelayedCommit" srcRegs=z,r7,r0,m152(miscellaneous[152]) destRegs= extMachInst=                                                                                                                                                               0
+1001000: system.cpu.fetch2: MinorInst: id=0/47.1/140/621 addr=0x4214e6 inst="(invalid)" class=No_OpClass flags="IsMacroop"
+1001000: system.cpu.fetch2: MinorInst: id=0/47.1/140/622 addr=0x4214e9 inst="(invalid)" class=No_OpClass flags="IsMacroop"
+1001000: global: MinorTrace: state=FetchRunning icacheState=IcacheRunning in_tlb_mem=0/0 streamSeqNum=47 lines=B
+1001000: global: MinorTrace: lines=
+1001000: global: MinorTrace: lines=
+1001000: global: MinorTrace: lines=0/47.1/141,-
+1001000: global: MinorTrace: prediction=-,-
+1001000: global: MinorTrace: inputIndex=48 havePC=1 predictionSeqNum=1 insts=(0/47.1/140/621,0/47.1/140/622)
+1001000: global: MinorTrace: lines=0/47.1/140,R
+1001000: global: MinorTrace: insts=(0/47.1/140/621,0/47.1/140/622),(0/47.1/140/619,0/47.1/140/620)
+1001000: global: MinorTrace: insts=(0/47.1/140/617.1209,0/47.1/140/617.1210)
+1001000: global: MinorTrace: insts=(0/47.1/140/617,0/47.1/140/618),(0/47.1/140/619,0/47.1/140/620),R
+1001000: global: MinorTrace: insts=(0/47.1/140/617.1209,0/47.1/140/617.1210),(0/47.1/140/617.1207,0/47.1/140/617.1208)
+1001000: global: MinorTrace: state=MemoryRunning in_tlb_mem=0/1 stores_in_transfers=0 lastMemBarrier=0
+1001000: global: MinorTrace: addr=
+1001000: global: MinorTrace: addr=,
+1001000: global: MinorTrace: addr=W;0/46.1/137/601.1178;8,-,-,-,- num_unissued_stores=0
+1001000: global: MinorTrace: insts=(0/47.1/140/617.1207,0/47.1/140/617.1208),R,,,,,
+1001000: global: MinorTrace: busy=
+1001000: global: MinorTrace: insts=- inputIndex=1 streamSeqNum=47 stalled=E,E,E,E,E,E,1,E drainState=NotDraining isInbetweenInsts=1
+1001000: global: MinorTrace: insts=-,-,-
+1001000: global: MinorTrace: insts=-,-,-
+1001000: global: MinorTrace: insts=-,-,-
+1001000: global: MinorTrace: insts=-,-,-,-,-,-,-,-,-
+1001000: global: MinorTrace: insts=-,-,-,-,-,-
+1001000: global: MinorTrace: insts=-,-,-
+1001000: global: MinorTrace: insts=0/47.1/140/617.1207
+1001000: global: MinorTrace: insts=-
+1001000: global: MinorTrace: insts=0/47.1/140/617.1207,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+1001000: global: MinorTrace: insts=0/47.1/140/617.1207,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+1001000: global: MinorTrace: branch=-,-
+1001000: global: MinorTrace: activity=5 stages=E,1,E,1,1
+1001500: system.cpu.execute: MinorInst: id=0/47.1/140/617.1208 addr=0x4214ca inst="  STOS_E_M : subi   rcx, rcx, 0x1" class=IntAlu flags="IsInteger IsMicroop IsDelayedCommit" srcRegs=r1,z,z,z,z,z destRegs=r1,z,z,z,z,c4 extMachInst=                                                                                                                                                               0
+1001500: system.cpu.execute: MinorInst: id=0/47.1/140/617.1209 addr=0x4214ca inst="  STOS_E_M : add   rdi, rdi, t3" class=IntAlu flags="IsInteger IsMicroop IsDelayedCommit" srcRegs=r7,r19 destRegs=r7 extMachInst=                                                                                                                                                               0
+1001500: global: MinorTrace: state=FetchRunning icacheState=IcacheRunning in_tlb_mem=0/0 streamSeqNum=47 lines=B
+1001500: global: MinorTrace: lines=
+1001500: global: MinorTrace: lines=
+1001500: global: MinorTrace: lines=-,0/47.1/141
+1001500: global: MinorTrace: prediction=-,-
+1001500: global: MinorTrace: inputIndex=48 havePC=1 predictionSeqNum=1 insts=B
+1001500: global: MinorTrace: lines=0/47.1/140,0/47.1/141
+1001500: global: MinorTrace: insts=-,(0/47.1/140/621,0/47.1/140/622)
+1001500: global: MinorTrace: insts=(0/47.1/140/617.1211,0/47.1/140/618.1212)
+1001500: global: MinorTrace: insts=(0/47.1/140/617,0/47.1/140/618),(0/47.1/140/619,0/47.1/140/620),(0/47.1/140/621,0/47.1/140/622)
+1001500: global: MinorTrace: insts=(0/47.1/140/617.1211,0/47.1/140/618.1212),(0/47.1/140/617.1209,0/47.1/140/617.1210)
+1001500: global: MinorTrace: state=MemoryRunning in_tlb_mem=0/0 stores_in_transfers=0 lastMemBarrier=0
+1001500: global: MinorTrace: addr=
+1001500: global: MinorTrace: addr=,
+1001500: global: MinorTrace: addr=W;0/47.1/140/617.1207;7,-,-,-,- num_unissued_stores=1
+1001500: global: MinorTrace: insts=(0/47.1/140/617.1209,0/47.1/140/617.1210),R,,,,,
+1001500: global: MinorTrace: busy=(1,1/0/2006/1208),(7,1/0/2006/1209),(91,1/0/2006/1208)
+1001500: global: MinorTrace: insts=(0/47.1/140/617.1207,-) inputIndex=1 streamSeqNum=47 stalled=E,E,E,E,E,E,E,E drainState=NotDraining isInbetweenInsts=0
+1001500: global: MinorTrace: insts=0/47.1/140/617.1208,-,-
+1001500: global: MinorTrace: insts=0/47.1/140/617.1209,-,-
+1001500: global: MinorTrace: insts=-,-,-
+1001500: global: MinorTrace: insts=-,-,-,-,-,-,-,-,-
+1001500: global: MinorTrace: insts=-,-,-,-,-,-
+1001500: global: MinorTrace: insts=-,-,-
+1001500: global: MinorTrace: insts=-
+1001500: global: MinorTrace: insts=-
+1001500: global: MinorTrace: insts=0/47.1/140/617.1208,0/47.1/140/617.1209,,,,,,,,,,,,,,,,,,,,,,,,,,,
+1001500: global: MinorTrace: insts=,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+1001500: global: MinorTrace: branch=-,-
+1001500: global: MinorTrace: activity=4 stages=E,E,E,1,1
+1002000: system.cpu.execute: MinorInst: id=0/47.1/140/617.1210 addr=0x4214ca inst="  STOS_E_M : br   0x6" class=IntAlu flags="IsControl IsDirectControl IsCondControl IsMicroop IsDelayedCommit" srcRegs=c0,c1,c2,c3,c4 destRegs= extMachInst=                                                                                                                                                               0
+1002000: system.cpu.execute: MinorInst: id=0/47.1/140/617.1211 addr=0x4214ca inst="(invalid)" class=No_OpClass flags="IsMicroop IsLastMicroop" srcRegs= destRegs= extMachInst=                                                                                                                                                               0
+1002000: system.cpu.fetch2: MinorInst: id=0/47.1/140/623 addr=0x4214f4 inst="(invalid)" class=No_OpClass flags="IsMacroop"
+1002000: system.cpu.fetch2: MinorInst: id=0/47.1/140/624 addr=0x4214f7 inst="(invalid)" class=No_OpClass flags="IsMacroop"
+1002000: global: MinorTrace: state=FetchRunning icacheState=IcacheRunning in_tlb_mem=0/0 streamSeqNum=47 lines=B
+1002000: global: MinorTrace: lines=
+1002000: global: MinorTrace: lines=
+1002000: global: MinorTrace: lines=-,-
+1002000: global: MinorTrace: prediction=-,-
+1002000: global: MinorTrace: inputIndex=56 havePC=1 predictionSeqNum=1 insts=(0/47.1/140/623,0/47.1/140/624)
+1002000: global: MinorTrace: lines=0/47.1/140,0/47.1/141
+1002000: global: MinorTrace: insts=(0/47.1/140/623,0/47.1/140/624),-
+1002000: global: MinorTrace: insts=(0/47.1/140/618.1213,0/47.1/140/619.1214)
+1002000: global: MinorTrace: insts=(0/47.1/140/619,0/47.1/140/620),(0/47.1/140/621,0/47.1/140/622),R
+1002000: global: MinorTrace: insts=(0/47.1/140/618.1213,0/47.1/140/619.1214),(0/47.1/140/617.1211,0/47.1/140/618.1212)
+1002000: global: MinorTrace: state=MemoryRunning in_tlb_mem=0/1 stores_in_transfers=0 lastMemBarrier=0
+1002000: global: MinorTrace: addr=
+1002000: global: MinorTrace: addr=,
+1002000: global: MinorTrace: addr=W;0/47.1/140/617.1207;8,-,-,-,- num_unissued_stores=0
+1002000: global: MinorTrace: insts=(0/47.1/140/617.1211,0/47.1/140/618.1212),R,,,,,
+1002000: global: MinorTrace: busy=(1,1/0/2006/1208),(7,1/0/2006/1209),(91,1/0/2006/1208)
+1002000: global: MinorTrace: insts=(0/47.1/140/617.1207,-) inputIndex=1 streamSeqNum=47 stalled=E,E,E,E,E,E,E,E drainState=NotDraining isInbetweenInsts=0
+1002000: global: MinorTrace: insts=0/47.1/140/617.1210,0/47.1/140/617.1208,-
+1002000: global: MinorTrace: insts=-,0/47.1/140/617.1209,-
+1002000: global: MinorTrace: insts=-,-,-
+1002000: global: MinorTrace: insts=-,-,-,-,-,-,-,-,-
+1002000: global: MinorTrace: insts=-,-,-,-,-,-
+1002000: global: MinorTrace: insts=-,-,-
+1002000: global: MinorTrace: insts=-
+1002000: global: MinorTrace: insts=-
+1002000: global: MinorTrace: insts=0/47.1/140/617.1208,0/47.1/140/617.1209,0/47.1/140/617.1210,0/47.1/140/617.1211,,,,,,,,,,,,,,,,,,,,,,,,,
+1002000: global: MinorTrace: insts=,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+1002000: global: MinorTrace: branch=-,-
+1002000: global: MinorTrace: activity=4 stages=E,E,E,1,1
+1002500: system.cpu.execute: MinorInst: id=0/47.1/140/618.1212 addr=0x4214cd inst="  LEA_R_P : rdip   t7, t7" class=IntAlu flags="IsInteger IsMicroop IsDelayedCommit IsFirstMicroop" srcRegs=m153(miscellaneous[153]) destRegs=r23 extMachInst=                                                                                                                                                               0
+1002500: system.cpu.fetch2: MinorInst: id=0/47.1/140/625 addr=0x4214fd inst="(invalid)" class=No_OpClass flags="IsMacroop"
+1002500: system.cpu.fetch2: MinorInst: id=0/47.1/141/626 addr=0x421500 inst="(invalid)" class=No_OpClass flags="IsMacroop"
+1002500: global: MinorTrace: state=FetchRunning icacheState=IcacheRunning in_tlb_mem=0/1 streamSeqNum=47 lines=-
+1002500: global: MinorTrace: lines=
+1002500: global: MinorTrace: lines=0/47.1/142
+1002500: global: MinorTrace: lines=-,-
+1002500: global: MinorTrace: prediction=-,-
+1002500: global: MinorTrace: inputIndex=0 havePC=1 predictionSeqNum=1 insts=(0/47.1/140/625,0/47.1/141/626)
+1002500: global: MinorTrace: lines=0/47.1/141,R
+1002500: global: MinorTrace: insts=(0/47.1/140/625,0/47.1/141/626),(0/47.1/140/623,0/47.1/140/624)
+1002500: global: MinorTrace: insts=(0/47.1/140/619.1215,0/47.1/140/620.1216)
+1002500: global: MinorTrace: insts=(0/47.1/140/621,0/47.1/140/622),(0/47.1/140/623,0/47.1/140/624),R
+1002500: global: MinorTrace: insts=(0/47.1/140/619.1215,0/47.1/140/620.1216),(0/47.1/140/618.1213,0/47.1/140/619.1214)
+1002500: global: MinorTrace: state=MemoryRunning in_tlb_mem=0/1 stores_in_transfers=0 lastMemBarrier=0
+1002500: global: MinorTrace: addr=
+1002500: global: MinorTrace: addr=,
+1002500: global: MinorTrace: addr=W;0/47.1/140/617.1207;8,-,-,-,- num_unissued_stores=0
+1002500: global: MinorTrace: insts=(0/47.1/140/618.1213,0/47.1/140/619.1214),R,,,,,
+1002500: global: MinorTrace: busy=(1,1/0/2006/1208),(7,1/0/2006/1209),(23,1/0/2008/1212),(91,1/0/2006/1208)
+1002500: global: MinorTrace: insts=(0/47.1/140/617.1207,-) inputIndex=0 streamSeqNum=47 stalled=1,1,E,E,E,E,E,E drainState=NotDraining isInbetweenInsts=0
+1002500: global: MinorTrace: insts=0/47.1/140/618.1212,0/47.1/140/617.1210,0/47.1/140/617.1208
+1002500: global: MinorTrace: insts=-,-,0/47.1/140/617.1209
+1002500: global: MinorTrace: insts=-,-,-
+1002500: global: MinorTrace: insts=-,-,-,-,-,-,-,-,-
+1002500: global: MinorTrace: insts=-,-,-,-,-,-
+1002500: global: MinorTrace: insts=-,-,-
+1002500: global: MinorTrace: insts=-
+1002500: global: MinorTrace: insts=-
+1002500: global: MinorTrace: insts=0/47.1/140/617.1208,0/47.1/140/617.1209,0/47.1/140/617.1210,0/47.1/140/617.1211,0/47.1/140/618.1212,,,,,,,,,,,,,,,,,,,,,,,,
+1002500: global: MinorTrace: insts=,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+1002500: global: MinorTrace: branch=-,-
+1002500: global: MinorTrace: activity=5 stages=E,1,E,1,1
+1003000: system.cpu.execute: MinorInst: id=0/47.1/140/618.1213 addr=0x4214cd inst="  LEA_R_P : lea   rax, DS:[t0 + t7 + 0xfffffffffffe026c]" class=IntAlu flags="IsInteger IsMicroop IsLastMicroop" srcRegs=z,r23 destRegs=r0 extMachInst=                                                                                                                                                               0
+1003000: system.cpu.execute: MinorInst: id=0/47.1/140/619.1214 addr=0x4214d4 inst="  MOV_M_I : limm   t1, 0x1000" class=IntAlu flags="IsInteger IsMicroop IsDelayedCommit IsFirstMicroop" srcRegs= destRegs=r17 extMachInst=                                                                                                                                                               0
+1003000: global: MinorTrace: state=FetchRunning icacheState=IcacheRunning in_tlb_mem=0/1 streamSeqNum=47 lines=B
+1003000: global: MinorTrace: lines=
+1003000: global: MinorTrace: lines=0/47.1/142
+1003000: global: MinorTrace: lines=-,-
+1003000: global: MinorTrace: prediction=-,-
+1003000: global: MinorTrace: inputIndex=0 havePC=1 predictionSeqNum=1 insts=B
+1003000: global: MinorTrace: lines=0/47.1/141,R
+1003000: global: MinorTrace: insts=-,(0/47.1/140/625,0/47.1/141/626)
+1003000: global: MinorTrace: insts=(0/47.1/140/621.1217,0/47.1/140/622.1218)
+1003000: global: MinorTrace: insts=(0/47.1/140/621,0/47.1/140/622),(0/47.1/140/623,0/47.1/140/624),(0/47.1/140/625,0/47.1/141/626)
+1003000: global: MinorTrace: insts=(0/47.1/140/621.1217,0/47.1/140/622.1218),(0/47.1/140/619.1215,0/47.1/140/620.1216)
+1003000: global: MinorTrace: state=MemoryRunning in_tlb_mem=0/0 stores_in_transfers=0 lastMemBarrier=0
+1003000: global: MinorTrace: addr=
+1003000: global: MinorTrace: addr=,
+1003000: global: MinorTrace: addr=-,-,-,-,- num_unissued_stores=0
+1003000: global: MinorTrace: insts=(0/47.1/140/619.1215,0/47.1/140/620.1216),R,,,,,
+1003000: global: MinorTrace: busy=(0,1/0/2009/1213),(17,1/0/2009/1214),(23,1/0/2008/1212)
+1003000: global: MinorTrace: insts=(0/47.1/140/617.1208,0/47.1/140/617.1209) inputIndex=0 streamSeqNum=47 stalled=1,E,E,E,E,E,E,E drainState=NotDraining isInbetweenInsts=0
+1003000: global: MinorTrace: insts=0/47.1/140/618.1213,0/47.1/140/618.1212,0/47.1/140/617.1210
+1003000: global: MinorTrace: insts=0/47.1/140/619.1214,-,-
+1003000: global: MinorTrace: insts=-,-,-
+1003000: global: MinorTrace: insts=-,-,-,-,-,-,-,-,-
+1003000: global: MinorTrace: insts=-,-,-,-,-,-
+1003000: global: MinorTrace: insts=-,-,-
+1003000: global: MinorTrace: insts=-
+1003000: global: MinorTrace: insts=-
+1003000: global: MinorTrace: insts=0/47.1/140/617.1210,0/47.1/140/617.1211,0/47.1/140/618.1212,0/47.1/140/618.1213,0/47.1/140/619.1214,,,,,,,,,,,,,,,,,,,,,,,,
+1003000: global: MinorTrace: insts=,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+1003000: global: MinorTrace: branch=-,-
+1003000: global: MinorTrace: activity=4 stages=E,E,E,1,1
+1003500: system.cpu.fetch1: MinorLine: id=0/47.1/142 size=64 vaddr=0x421540 paddr=0x21540
+1003500: system.cpu.execute: MinorInst: id=0/47.1/140/619.1215 addr=0x4214d4 inst="  MOV_M_I : st   t1, SS:[rbp + 0xfffffffffffffe90]" class=MemWrite flags="IsInteger IsStore IsMicroop IsLastMicroop" srcRegs=z,r5,r17,m154(miscellaneous[154]) destRegs= extMachInst=                                                                                                                                                               0
+1003500: system.cpu.execute: MinorInst: id=0/47.1/140/620.1216 addr=0x4214df inst="  MOV_M_R : st   rax, SS:[rbp + 0xfffffffffffffea8]" class=MemWrite flags="IsInteger IsStore IsMicroop IsLastMicroop IsFirstMicroop" srcRegs=z,r5,r0,m154(miscellaneous[154]) destRegs= extMachInst=                                                                                                                                                               0
+1003500: system.cpu.execute: MinorInst: id=0/47.1/140/621.1217 addr=0x4214e6 inst="  MOV_R_M : ld   rax, DS:[rdx]" class=MemRead flags="IsInteger IsLoad IsMicroop IsLastMicroop IsFirstMicroop" srcRegs=z,r2,m155(miscellaneous[155]) destRegs=r0 extMachInst=                                                                                                                                                               0
+1003500: system.cpu.execute: MinorInst: id=0/47.1/140/622.1218 addr=0x4214e9 inst="  MOV_M_I : limm   t1, 0x37f" class=IntAlu flags="IsInteger IsMicroop IsDelayedCommit IsFirstMicroop" srcRegs= destRegs=r17 extMachInst=                                                                                                                                                               0
+1003500: system.cpu.fetch2: MinorInst: id=0/47.1/141/627 addr=0x421504 inst="(invalid)" class=No_OpClass flags="IsMacroop"
+1003500: system.cpu.fetch2: MinorInst: id=0/47.1/141/628 addr=0x42150a inst="(invalid)" class=No_OpClass flags="IsMacroop"
+1003500: global: MinorTrace: state=FetchRunning icacheState=IcacheRunning in_tlb_mem=0/0 streamSeqNum=47 lines=B
+1003500: global: MinorTrace: lines=
+1003500: global: MinorTrace: lines=
+1003500: global: MinorTrace: lines=0/47.1/142,-
+1003500: global: MinorTrace: prediction=-,-
+1003500: global: MinorTrace: inputIndex=8 havePC=1 predictionSeqNum=1 insts=(0/47.1/141/627,0/47.1/141/628)
+1003500: global: MinorTrace: lines=0/47.1/141,R
+1003500: global: MinorTrace: insts=(0/47.1/141/627,0/47.1/141/628),-
+1003500: global: MinorTrace: insts=(0/47.1/140/622.1219,0/47.1/140/623.1220)
+1003500: global: MinorTrace: insts=(0/47.1/140/623,0/47.1/140/624),(0/47.1/140/625,0/47.1/141/626),R
+1003500: global: MinorTrace: insts=(0/47.1/140/622.1219,0/47.1/140/623.1220),(0/47.1/140/621.1217,0/47.1/140/622.1218)
+1003500: global: MinorTrace: state=MemoryRunning in_tlb_mem=0/0 stores_in_transfers=0 lastMemBarrier=0
+1003500: global: MinorTrace: addr=
+1003500: global: MinorTrace: addr=,
+1003500: global: MinorTrace: addr=-,-,-,-,- num_unissued_stores=0
+1003500: global: MinorTrace: insts=R,,,,,,
+1003500: global: MinorTrace: busy=(0,1/0/2009/1213),(17,1/0/2009/1214),(23,1/0/2008/1212)
+1003500: global: MinorTrace: insts=(0/47.1/140/617.1210,0/47.1/140/617.1209) inputIndex=0 streamSeqNum=48 stalled=1,E,E,E,E,E,E,E drainState=NotDraining isInbetweenInsts=0
+1003500: global: MinorTrace: insts=-,0/47.1/140/618.1213,0/47.1/140/618.1212
+1003500: global: MinorTrace: insts=-,0/47.1/140/619.1214,-
+1003500: global: MinorTrace: insts=-,-,-
+1003500: global: MinorTrace: insts=-,-,-,-,-,-,-,-,-
+1003500: global: MinorTrace: insts=-,-,-,-,-,-
+1003500: global: MinorTrace: insts=-,-,-
+1003500: global: MinorTrace: insts=-
+1003500: global: MinorTrace: insts=-
+1003500: global: MinorTrace: insts=0/47.1/140/617.1211,0/47.1/140/618.1212,0/47.1/140/618.1213,0/47.1/140/619.1214,,,,,,,,,,,,,,,,,,,,,,,,,
+1003500: global: MinorTrace: insts=,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+1003500: global: MinorTrace: branch=UnpredictedBranch;48.1;0x4214ca;0/47.1/140/617.1210,-
+1003500: global: MinorTrace: activity=5 stages=E,1,E,1,1
+1004000: system.cpu.execute: MinorInst: id=0/47.1/140/622.1219 addr=0x4214e9 inst="  MOV_M_I : st   t1, SS:[rbp + 0xfffffffffffffef0]" class=MemWrite flags="IsInteger IsStore IsMicroop IsLastMicroop" srcRegs=z,r5,r17,m154(miscellaneous[154]) destRegs= extMachInst=                                                                                                                                                               0
+1004000: system.cpu.execute: MinorInst: id=0/47.1/140/623.1220 addr=0x4214f4 inst="  TEST_R_R : and   t0, rax, rax" class=IntAlu flags="IsInteger IsMicroop IsLastMicroop IsFirstMicroop" srcRegs=r0,r0,z,z,z,z,z destRegs=z,c0,c1,z,z,z extMachInst=                                                                                                                                                               0
+1004000: global: MinorTrace: state=FetchRunning icacheState=IcacheRunning in_tlb_mem=0/1 streamSeqNum=48 lines=-
+1004000: global: MinorTrace: lines=
+1004000: global: MinorTrace: lines=0/48.1/143
+1004000: global: MinorTrace: lines=-,0/47.1/142
+1004000: global: MinorTrace: prediction=-,-
+1004000: global: MinorTrace: inputIndex=0 havePC=0 predictionSeqNum=1 insts=B
+1004000: global: MinorTrace: lines=R,
+1004000: global: MinorTrace: insts=-,(0/47.1/141/627,0/47.1/141/628)
+1004000: global: MinorTrace: insts=(0/47.1/140/624.1221,0/47.1/140/624.1222)
+1004000: global: MinorTrace: insts=(0/47.1/140/623,0/47.1/140/624),(0/47.1/140/625,0/47.1/141/626),(0/47.1/141/627,0/47.1/141/628)
+1004000: global: MinorTrace: insts=(0/47.1/140/624.1221,0/47.1/140/624.1222),(0/47.1/140/622.1219,0/47.1/140/623.1220)
+1004000: global: MinorTrace: state=MemoryRunning in_tlb_mem=0/0 stores_in_transfers=0 lastMemBarrier=0
+1004000: global: MinorTrace: addr=
+1004000: global: MinorTrace: addr=,
+1004000: global: MinorTrace: addr=-,-,-,-,- num_unissued_stores=0
+1004000: global: MinorTrace: insts=R,,,,,,
+1004000: global: MinorTrace: busy=(0,1/0/2009/1213),(17,1/0/2009/1214)
+1004000: global: MinorTrace: insts=(0/47.1/140/617.1210,0/47.1/140/617.1209) inputIndex=0 streamSeqNum=48 stalled=1,1,E,E,E,E,E,E drainState=NotDraining isInbetweenInsts=0
+1004000: global: MinorTrace: insts=-,-,0/47.1/140/618.1213
+1004000: global: MinorTrace: insts=-,-,0/47.1/140/619.1214
+1004000: global: MinorTrace: insts=-,-,-
+1004000: global: MinorTrace: insts=-,-,-,-,-,-,-,-,-
+1004000: global: MinorTrace: insts=-,-,-,-,-,-
+1004000: global: MinorTrace: insts=-,-,-
+1004000: global: MinorTrace: insts=-
+1004000: global: MinorTrace: insts=-
+1004000: global: MinorTrace: insts=0/47.1/140/618.1213,0/47.1/140/619.1214,,,,,,,,,,,,,,,,,,,,,,,,,,,
+1004000: global: MinorTrace: insts=,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+1004000: global: MinorTrace: branch=-,UnpredictedBranch;48.1;0x4214ca;0/47.1/140/617.1210
+1004000: global: MinorTrace: activity=5 stages=E,1,E,1,1
+1004500: system.cpu.execute: MinorInst: id=0/47.1/140/624.1221 addr=0x4214f7 inst="  JZ_I : rdip   t1, t1" class=IntAlu flags="IsInteger IsMicroop IsDelayedCommit IsFirstMicroop" srcRegs=m153(miscellaneous[153]) destRegs=r17 extMachInst=                                                                                                                                                               0
+1004500: system.cpu.execute: MinorInst: id=0/47.1/140/624.1222 addr=0x4214f7 inst="  JZ_I : limm   t2, 0x131" class=IntAlu flags="IsInteger IsMicroop IsDelayedCommit" srcRegs= destRegs=r18 extMachInst=                                                                                                                                                               0
+1004500: global: MinorTrace: state=FetchRunning icacheState=IcacheRunning in_tlb_mem=0/1 streamSeqNum=48 lines=-
+1004500: global: MinorTrace: lines=
+1004500: global: MinorTrace: lines=0/48.1/143
+1004500: global: MinorTrace: lines=-,-
+1004500: global: MinorTrace: prediction=-,-
+1004500: global: MinorTrace: inputIndex=0 havePC=0 predictionSeqNum=1 insts=-
+1004500: global: MinorTrace: lines=R,
+1004500: global: MinorTrace: insts=-,-
+1004500: global: MinorTrace: insts=(0/47.1/140/624.1223,0/47.1/140/625.1224)
+1004500: global: MinorTrace: insts=(0/47.1/140/625,0/47.1/141/626),(0/47.1/141/627,0/47.1/141/628),
+1004500: global: MinorTrace: insts=(0/47.1/140/624.1223,0/47.1/140/625.1224),(0/47.1/140/624.1221,0/47.1/140/624.1222)
+1004500: global: MinorTrace: state=MemoryRunning in_tlb_mem=0/0 stores_in_transfers=0 lastMemBarrier=0
+1004500: global: MinorTrace: addr=
+1004500: global: MinorTrace: addr=,
+1004500: global: MinorTrace: addr=-,-,-,-,- num_unissued_stores=0
+1004500: global: MinorTrace: insts=R,,,,,,
+1004500: global: MinorTrace: busy=
+1004500: global: MinorTrace: insts=(0/47.1/140/617.1210,0/47.1/140/617.1209) inputIndex=0 streamSeqNum=48 stalled=E,E,E,E,E,E,E,E drainState=NotDraining isInbetweenInsts=0
+1004500: global: MinorTrace: insts=-,-,-
+1004500: global: MinorTrace: insts=-,-,-
+1004500: global: MinorTrace: insts=-,-,-
+1004500: global: MinorTrace: insts=-,-,-,-,-,-,-,-,-
+1004500: global: MinorTrace: insts=-,-,-,-,-,-
+1004500: global: MinorTrace: insts=-,-,-
+1004500: global: MinorTrace: insts=-
+1004500: global: MinorTrace: insts=-
+1004500: global: MinorTrace: insts=,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+1004500: global: MinorTrace: insts=,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+1004500: global: MinorTrace: branch=-,-
+1004500: global: MinorTrace: activity=3 stages=E,E,E,1,E
+1005000: system.cpu.fetch1: MinorLine: id=0/48.1/143 size=64 vaddr=0x4214c0 paddr=0x214c0
+1005000: system.cpu.execute: MinorInst: id=0/47.1/140/624.1223 addr=0x4214f7 inst="  JZ_I : wrip   t1, t2" class=IntAlu flags="IsInteger IsControl IsDirectControl IsCondControl IsMicroop IsLastMicroop" srcRegs=r17,r18,c0,c1,c2,c3,c4,m153(miscellaneous[153]) destRegs= extMachInst=                                                                                                                                                               0
+1005000: system.cpu.execute: MinorInst: id=0/47.1/140/625.1224 addr=0x4214fd inst="(invalid)" class=No_OpClass flags="IsMicroop IsLastMicroop IsFirstMicroop" srcRegs= destRegs= extMachInst=                                                                                                                                                               0
+1005000: global: MinorTrace: state=FetchRunning icacheState=IcacheRunning in_tlb_mem=0/0 streamSeqNum=48 lines=0/48.1/143
+1005000: global: MinorTrace: lines=
+1005000: global: MinorTrace: lines=
+1005000: global: MinorTrace: lines=0/48.1/143,-
+1005000: global: MinorTrace: prediction=-,-
+1005000: global: MinorTrace: inputIndex=0 havePC=0 predictionSeqNum=1 insts=-
+1005000: global: MinorTrace: lines=R,
+1005000: global: MinorTrace: insts=-,-
+1005000: global: MinorTrace: insts=(0/47.1/141/626.1225,0/47.1/141/626.1226)
+1005000: global: MinorTrace: insts=(0/47.1/141/627,0/47.1/141/628),,
+1005000: global: MinorTrace: insts=(0/47.1/141/626.1225,0/47.1/141/626.1226),(0/47.1/140/624.1223,0/47.1/140/625.1224)
+1005000: global: MinorTrace: state=MemoryRunning in_tlb_mem=0/0 stores_in_transfers=0 lastMemBarrier=0
+1005000: global: MinorTrace: addr=
+1005000: global: MinorTrace: addr=,
+1005000: global: MinorTrace: addr=-,-,-,-,- num_unissued_stores=0
+1005000: global: MinorTrace: insts=R,,,,,,
+1005000: global: MinorTrace: busy=
+1005000: global: MinorTrace: insts=(0/47.1/140/617.1210,0/47.1/140/617.1209) inputIndex=0 streamSeqNum=48 stalled=E,E,E,E,E,E,E,E drainState=NotDraining isInbetweenInsts=0
+1005000: global: MinorTrace: insts=-,-,-
+1005000: global: MinorTrace: insts=-,-,-
+1005000: global: MinorTrace: insts=-,-,-
+1005000: global: MinorTrace: insts=-,-,-,-,-,-,-,-,-
+1005000: global: MinorTrace: insts=-,-,-,-,-,-
+1005000: global: MinorTrace: insts=-,-,-
+1005000: global: MinorTrace: insts=-
+1005000: global: MinorTrace: insts=-
+1005000: global: MinorTrace: insts=,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+1005000: global: MinorTrace: insts=,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+1005000: global: MinorTrace: branch=-,-
+1005000: global: MinorTrace: activity=4 stages=E,1,E,1,E
+1005500: system.cpu.execute: MinorInst: id=0/47.1/141/626.1225 addr=0x421500 inst="  CMP_R_I : limm   t1, 0x33" class=IntAlu flags="IsInteger IsMicroop IsDelayedCommit IsFirstMicroop" srcRegs= destRegs=r17 extMachInst=                                                                                                                                                               0
+1005500: system.cpu.execute: MinorInst: id=0/47.1/141/626.1226 addr=0x421500 inst="  CMP_R_I : sub   t0, rax, t1" class=IntAlu flags="IsInteger IsMicroop IsLastMicroop" srcRegs=r0,r17,z,z,z,z,z destRegs=z,c0,c1,z,z,z extMachInst=                                                                                                                                                               0
+1005500: system.cpu.fetch2: MinorInst: id=0/48.1/143/629 addr=0x4214ca inst="(invalid)" class=No_OpClass flags="IsMacroop"
+1005500: system.cpu.fetch2: MinorInst: id=0/48.1/143/630 addr=0x4214cd inst="(invalid)" class=No_OpClass flags="IsMacroop"
+1005500: global: MinorTrace: state=FetchRunning icacheState=IcacheRunning in_tlb_mem=0/1 streamSeqNum=48 lines=-
+1005500: global: MinorTrace: lines=
+1005500: global: MinorTrace: lines=0/48.1/144
+1005500: global: MinorTrace: lines=-,0/48.1/143
+1005500: global: MinorTrace: prediction=-,-
+1005500: global: MinorTrace: inputIndex=16 havePC=1 predictionSeqNum=1 insts=(0/48.1/143/629,0/48.1/143/630)
+1005500: global: MinorTrace: lines=0/48.1/143,R
+1005500: global: MinorTrace: insts=(0/48.1/143/629,0/48.1/143/630),-
+1005500: global: MinorTrace: insts=(0/47.1/141/627.1227,0/47.1/141/627.1228)
+1005500: global: MinorTrace: insts=(0/47.1/141/627,0/47.1/141/628),R,
+1005500: global: MinorTrace: insts=(0/47.1/141/627.1227,0/47.1/141/627.1228),(0/47.1/141/626.1225,0/47.1/141/626.1226)
+1005500: global: MinorTrace: state=MemoryRunning in_tlb_mem=0/0 stores_in_transfers=0 lastMemBarrier=0
+1005500: global: MinorTrace: addr=
+1005500: global: MinorTrace: addr=,
+1005500: global: MinorTrace: addr=-,-,-,-,- num_unissued_stores=0
+1005500: global: MinorTrace: insts=R,,,,,,
+1005500: global: MinorTrace: busy=
+1005500: global: MinorTrace: insts=(0/47.1/140/617.1210,0/47.1/140/617.1209) inputIndex=0 streamSeqNum=48 stalled=E,E,E,E,E,E,E,E drainState=NotDraining isInbetweenInsts=0
+1005500: global: MinorTrace: insts=-,-,-
+1005500: global: MinorTrace: insts=-,-,-
+1005500: global: MinorTrace: insts=-,-,-
+1005500: global: MinorTrace: insts=-,-,-,-,-,-,-,-,-
+1005500: global: MinorTrace: insts=-,-,-,-,-,-
+1005500: global: MinorTrace: insts=-,-,-
+1005500: global: MinorTrace: insts=-
+1005500: global: MinorTrace: insts=-
+1005500: global: MinorTrace: insts=,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+1005500: global: MinorTrace: insts=,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+1005500: global: MinorTrace: branch=-,-
+1005500: global: MinorTrace: activity=5 stages=E,1,1,1,E
+1006000: system.cpu.execute: MinorInst: id=0/47.1/141/627.1227 addr=0x421504 inst="  JNBE_I : rdip   t1, t1" class=IntAlu flags="IsInteger IsMicroop IsDelayedCommit IsFirstMicroop" srcRegs=m153(miscellaneous[153]) destRegs=r17 extMachInst=                                                                                                                                                               0
+1006000: system.cpu.execute: MinorInst: id=0/47.1/141/627.1228 addr=0x421504 inst="  JNBE_I : limm   t2, 0x10e" class=IntAlu flags="IsInteger IsMicroop IsDelayedCommit" srcRegs= destRegs=r18 extMachInst=                                                                                                                                                               0
+1006000: system.cpu.fetch2: MinorInst: id=0/48.1/143/631 addr=0x4214d4 inst="(invalid)" class=No_OpClass flags="IsMacroop"
+1006000: system.cpu.fetch2: MinorInst: id=0/48.1/143/632 addr=0x4214df inst="(invalid)" class=No_OpClass flags="IsMacroop"
+1006000: global: MinorTrace: state=FetchRunning icacheState=IcacheRunning in_tlb_mem=0/1 streamSeqNum=48 lines=B
+1006000: global: MinorTrace: lines=
+1006000: global: MinorTrace: lines=0/48.1/144
+1006000: global: MinorTrace: lines=-,-
+1006000: global: MinorTrace: prediction=-,-
+1006000: global: MinorTrace: inputIndex=32 havePC=1 predictionSeqNum=1 insts=(0/48.1/143/631,0/48.1/143/632)
+1006000: global: MinorTrace: lines=0/48.1/143,R
+1006000: global: MinorTrace: insts=(0/48.1/143/631,0/48.1/143/632),(0/48.1/143/629,0/48.1/143/630)
+1006000: global: MinorTrace: insts=(0/47.1/141/627.1229,0/47.1/141/628.1230)
+1006000: global: MinorTrace: insts=(0/48.1/143/629,0/48.1/143/630),R,
+1006000: global: MinorTrace: insts=(0/47.1/141/627.1229,0/47.1/141/628.1230),(0/47.1/141/627.1227,0/47.1/141/627.1228)
+1006000: global: MinorTrace: state=MemoryRunning in_tlb_mem=0/0 stores_in_transfers=0 lastMemBarrier=0
+1006000: global: MinorTrace: addr=
+1006000: global: MinorTrace: addr=,
+1006000: global: MinorTrace: addr=-,-,-,-,- num_unissued_stores=0
+1006000: global: MinorTrace: insts=R,,,,,,
+1006000: global: MinorTrace: busy=
+1006000: global: MinorTrace: insts=(0/47.1/140/617.1210,0/47.1/140/617.1209) inputIndex=0 streamSeqNum=48 stalled=E,E,E,E,E,E,E,E drainState=NotDraining isInbetweenInsts=0
+1006000: global: MinorTrace: insts=-,-,-
+1006000: global: MinorTrace: insts=-,-,-
+1006000: global: MinorTrace: insts=-,-,-
+1006000: global: MinorTrace: insts=-,-,-,-,-,-,-,-,-
+1006000: global: MinorTrace: insts=-,-,-,-,-,-
+1006000: global: MinorTrace: insts=-,-,-
+1006000: global: MinorTrace: insts=-
+1006000: global: MinorTrace: insts=-
+1006000: global: MinorTrace: insts=,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+1006000: global: MinorTrace: insts=,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+1006000: global: MinorTrace: branch=-,-
+1006000: global: MinorTrace: activity=4 stages=E,E,1,1,E
+1006500: system.cpu.fetch1: MinorLine: id=0/48.1/144 size=64 vaddr=0x421500 paddr=0x21500
+1006500: system.cpu.execute: MinorInst: id=0/47.1/141/627.1229 addr=0x421504 inst="  JNBE_I : wrip   t1, t2" class=IntAlu flags="IsInteger IsControl IsDirectControl IsCondControl IsMicroop IsLastMicroop" srcRegs=r17,r18,c0,c1,c2,c3,c4,m153(miscellaneous[153]) destRegs= extMachInst=                                                                                                                                                               0
+1006500: system.cpu.execute: MinorInst: id=0/47.1/141/628.1230 addr=0x42150a inst="  MOV_R_M : ld   rcx, DS:[rdx + 0x8]" class=MemRead flags="IsInteger IsLoad IsMicroop IsLastMicroop IsFirstMicroop" srcRegs=z,r2,m155(miscellaneous[155]) destRegs=r1 extMachInst=                                                                                                                                                               0
+1006500: system.cpu.fetch2: MinorInst: id=0/48.1/143/633 addr=0x4214e6 inst="(invalid)" class=No_OpClass flags="IsMacroop"
+1006500: system.cpu.fetch2: MinorInst: id=0/48.1/143/634 addr=0x4214e9 inst="(invalid)" class=No_OpClass flags="IsMacroop"
+1006500: global: MinorTrace: state=FetchRunning icacheState=IcacheRunning in_tlb_mem=0/0 streamSeqNum=48 lines=B
+1006500: global: MinorTrace: lines=
+1006500: global: MinorTrace: lines=
+1006500: global: MinorTrace: lines=0/48.1/144,-
+1006500: global: MinorTrace: prediction=-,-
+1006500: global: MinorTrace: inputIndex=48 havePC=1 predictionSeqNum=1 insts=(0/48.1/143/633,0/48.1/143/634)
+1006500: global: MinorTrace: lines=0/48.1/143,R
+1006500: global: MinorTrace: insts=(0/48.1/143/633,0/48.1/143/634),(0/48.1/143/631,0/48.1/143/632)
+1006500: global: MinorTrace: insts=(0/48.1/143/629.1231,0/48.1/143/629.1232)
+1006500: global: MinorTrace: insts=(0/48.1/143/629,0/48.1/143/630),(0/48.1/143/631,0/48.1/143/632),R
+1006500: global: MinorTrace: insts=(0/48.1/143/629.1231,0/48.1/143/629.1232),(0/47.1/141/627.1229,0/47.1/141/628.1230)
+1006500: global: MinorTrace: state=MemoryRunning in_tlb_mem=0/0 stores_in_transfers=0 lastMemBarrier=0
+1006500: global: MinorTrace: addr=
+1006500: global: MinorTrace: addr=,
+1006500: global: MinorTrace: addr=-,-,-,-,- num_unissued_stores=0
+1006500: global: MinorTrace: insts=R,,,,,,
+1006500: global: MinorTrace: busy=
+1006500: global: MinorTrace: insts=(0/47.1/140/617.1210,0/47.1/140/617.1209) inputIndex=0 streamSeqNum=48 stalled=E,E,E,E,E,E,E,E drainState=NotDraining isInbetweenInsts=0
+1006500: global: MinorTrace: insts=-,-,-
+1006500: global: MinorTrace: insts=-,-,-
+1006500: global: MinorTrace: insts=-,-,-
+1006500: global: MinorTrace: insts=-,-,-,-,-,-,-,-,-
+1006500: global: MinorTrace: insts=-,-,-,-,-,-
+1006500: global: MinorTrace: insts=-,-,-
+1006500: global: MinorTrace: insts=-
+1006500: global: MinorTrace: insts=-
+1006500: global: MinorTrace: insts=,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+1006500: global: MinorTrace: insts=,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+1006500: global: MinorTrace: branch=-,-
+1006500: global: MinorTrace: activity=4 stages=E,1,E,1,E
+1007000: system.cpu.execute: MinorInst: id=0/48.1/143/629.1231 addr=0x4214ca inst="  STOS_E_M : st   rax, ES:[t0 + rdi]" class=MemWrite flags="IsInteger IsStore IsMicroop IsDelayedCommit" srcRegs=z,r7,r0,m152(miscellaneous[152]) destRegs= extMachInst=                                                                                                                                                               0
+1007000: global: MinorTrace: state=FetchRunning icacheState=IcacheRunning in_tlb_mem=0/0 streamSeqNum=48 lines=B
+1007000: global: MinorTrace: lines=
+1007000: global: MinorTrace: lines=
+1007000: global: MinorTrace: lines=-,0/48.1/144
+1007000: global: MinorTrace: prediction=-,-
+1007000: global: MinorTrace: inputIndex=48 havePC=1 predictionSeqNum=1 insts=B
+1007000: global: MinorTrace: lines=0/48.1/143,0/48.1/144
+1007000: global: MinorTrace: insts=-,(0/48.1/143/633,0/48.1/143/634)
+1007000: global: MinorTrace: insts=(0/48.1/143/629.1233,0/48.1/143/629.1234)
+1007000: global: MinorTrace: insts=(0/48.1/143/629,0/48.1/143/630),(0/48.1/143/631,0/48.1/143/632),(0/48.1/143/633,0/48.1/143/634)
+1007000: global: MinorTrace: insts=(0/48.1/143/629.1233,0/48.1/143/629.1234),(0/48.1/143/629.1231,0/48.1/143/629.1232)
+1007000: global: MinorTrace: state=MemoryRunning in_tlb_mem=0/0 stores_in_transfers=0 lastMemBarrier=0
+1007000: global: MinorTrace: addr=
+1007000: global: MinorTrace: addr=,
+1007000: global: MinorTrace: addr=-,-,-,-,- num_unissued_stores=0
+1007000: global: MinorTrace: insts=(0/48.1/143/629.1231,0/48.1/143/629.1232),R,,,,,
+1007000: global: MinorTrace: busy=
+1007000: global: MinorTrace: insts=(0/47.1/140/617.1210,0/47.1/140/617.1209) inputIndex=1 streamSeqNum=48 stalled=E,E,E,E,E,E,1,E drainState=NotDraining isInbetweenInsts=0
+1007000: global: MinorTrace: insts=-,-,-
+1007000: global: MinorTrace: insts=-,-,-
+1007000: global: MinorTrace: insts=-,-,-
+1007000: global: MinorTrace: insts=-,-,-,-,-,-,-,-,-
+1007000: global: MinorTrace: insts=-,-,-,-,-,-
+1007000: global: MinorTrace: insts=-,-,-
+1007000: global: MinorTrace: insts=0/48.1/143/629.1231
+1007000: global: MinorTrace: insts=-
+1007000: global: MinorTrace: insts=0/48.1/143/629.1231,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+1007000: global: MinorTrace: insts=0/48.1/143/629.1231,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+1007000: global: MinorTrace: branch=-,-
+1007000: global: MinorTrace: activity=4 stages=E,E,E,1,1
+1007500: system.cpu.execute: MinorInst: id=0/48.1/143/629.1232 addr=0x4214ca inst="  STOS_E_M : subi   rcx, rcx, 0x1" class=IntAlu flags="IsInteger IsMicroop IsDelayedCommit" srcRegs=r1,z,z,z,z,z destRegs=r1,z,z,z,z,c4 extMachInst=                                                                                                                                                               0
+1007500: system.cpu.execute: MinorInst: id=0/48.1/143/629.1233 addr=0x4214ca inst="  STOS_E_M : add   rdi, rdi, t3" class=IntAlu flags="IsInteger IsMicroop IsDelayedCommit" srcRegs=r7,r19 destRegs=r7 extMachInst=                                                                                                                                                               0
+1007500: global: MinorTrace: state=FetchRunning icacheState=IcacheRunning in_tlb_mem=0/0 streamSeqNum=48 lines=B
+1007500: global: MinorTrace: lines=
+1007500: global: MinorTrace: lines=
+1007500: global: MinorTrace: lines=-,-
+1007500: global: MinorTrace: prediction=-,-
+1007500: global: MinorTrace: inputIndex=48 havePC=1 predictionSeqNum=1 insts=B
+1007500: global: MinorTrace: lines=0/48.1/143,0/48.1/144
+1007500: global: MinorTrace: insts=-,-
+1007500: global: MinorTrace: insts=(0/48.1/143/629.1235,0/48.1/143/630.1236)
+1007500: global: MinorTrace: insts=(0/48.1/143/629,0/48.1/143/630),(0/48.1/143/631,0/48.1/143/632),(0/48.1/143/633,0/48.1/143/634)
+1007500: global: MinorTrace: insts=(0/48.1/143/629.1235,0/48.1/143/630.1236),(0/48.1/143/629.1233,0/48.1/143/629.1234)
+1007500: global: MinorTrace: state=MemoryRunning in_tlb_mem=0/0 stores_in_transfers=0 lastMemBarrier=0
+1007500: global: MinorTrace: addr=
+1007500: global: MinorTrace: addr=,
+1007500: global: MinorTrace: addr=W;0/48.1/143/629.1231;7,-,-,-,- num_unissued_stores=1
+1007500: global: MinorTrace: insts=(0/48.1/143/629.1233,0/48.1/143/629.1234),R,,,,,
+1007500: global: MinorTrace: busy=(1,1/0/2018/1232),(7,1/0/2018/1233),(91,1/0/2018/1232)
+1007500: global: MinorTrace: insts=(0/48.1/143/629.1231,0/47.1/140/617.1209) inputIndex=1 streamSeqNum=48 stalled=E,E,E,E,E,E,E,E drainState=NotDraining isInbetweenInsts=0
+1007500: global: MinorTrace: insts=0/48.1/143/629.1232,-,-
+1007500: global: MinorTrace: insts=0/48.1/143/629.1233,-,-
+1007500: global: MinorTrace: insts=-,-,-
+1007500: global: MinorTrace: insts=-,-,-,-,-,-,-,-,-
+1007500: global: MinorTrace: insts=-,-,-,-,-,-
+1007500: global: MinorTrace: insts=-,-,-
+1007500: global: MinorTrace: insts=-
+1007500: global: MinorTrace: insts=-
+1007500: global: MinorTrace: insts=0/48.1/143/629.1232,0/48.1/143/629.1233,,,,,,,,,,,,,,,,,,,,,,,,,,,
+1007500: global: MinorTrace: insts=,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+1007500: global: MinorTrace: branch=-,-
+1007500: global: MinorTrace: activity=4 stages=E,E,E,1,1
+1008000: system.cpu.execute: MinorInst: id=0/48.1/143/629.1234 addr=0x4214ca inst="  STOS_E_M : br   0x6" class=IntAlu flags="IsControl IsDirectControl IsCondControl IsMicroop IsDelayedCommit" srcRegs=c0,c1,c2,c3,c4 destRegs= extMachInst=                                                                                                                                                               0
+1008000: system.cpu.execute: MinorInst: id=0/48.1/143/629.1235 addr=0x4214ca inst="(invalid)" class=No_OpClass flags="IsMicroop IsLastMicroop" srcRegs= destRegs= extMachInst=                                                                                                                                                               0
+1008000: system.cpu.fetch2: MinorInst: id=0/48.1/143/635 addr=0x4214f4 inst="(invalid)" class=No_OpClass flags="IsMacroop"
+1008000: system.cpu.fetch2: MinorInst: id=0/48.1/143/636 addr=0x4214f7 inst="(invalid)" class=No_OpClass flags="IsMacroop"
+1008000: global: MinorTrace: state=FetchRunning icacheState=IcacheRunning in_tlb_mem=0/0 streamSeqNum=48 lines=B
+1008000: global: MinorTrace: lines=
+1008000: global: MinorTrace: lines=
+1008000: global: MinorTrace: lines=-,-
+1008000: global: MinorTrace: prediction=-,-
+1008000: global: MinorTrace: inputIndex=56 havePC=1 predictionSeqNum=1 insts=(0/48.1/143/635,0/48.1/143/636)
+1008000: global: MinorTrace: lines=0/48.1/143,0/48.1/144
+1008000: global: MinorTrace: insts=(0/48.1/143/635,0/48.1/143/636),-
+1008000: global: MinorTrace: insts=(0/48.1/143/630.1237,0/48.1/143/631.1238)
+1008000: global: MinorTrace: insts=(0/48.1/143/631,0/48.1/143/632),(0/48.1/143/633,0/48.1/143/634),R
+1008000: global: MinorTrace: insts=(0/48.1/143/630.1237,0/48.1/143/631.1238),(0/48.1/143/629.1235,0/48.1/143/630.1236)
+1008000: global: MinorTrace: state=MemoryRunning in_tlb_mem=0/1 stores_in_transfers=0 lastMemBarrier=0
+1008000: global: MinorTrace: addr=
+1008000: global: MinorTrace: addr=,
+1008000: global: MinorTrace: addr=W;0/48.1/143/629.1231;8,-,-,-,- num_unissued_stores=0
+1008000: global: MinorTrace: insts=(0/48.1/143/629.1235,0/48.1/143/630.1236),R,,,,,
+1008000: global: MinorTrace: busy=(1,1/0/2018/1232),(7,1/0/2018/1233),(91,1/0/2018/1232)
+1008000: global: MinorTrace: insts=(0/48.1/143/629.1231,0/47.1/140/617.1209) inputIndex=1 streamSeqNum=48 stalled=E,E,E,E,E,E,E,E drainState=NotDraining isInbetweenInsts=0
+1008000: global: MinorTrace: insts=0/48.1/143/629.1234,0/48.1/143/629.1232,-
+1008000: global: MinorTrace: insts=-,0/48.1/143/629.1233,-
+1008000: global: MinorTrace: insts=-,-,-
+1008000: global: MinorTrace: insts=-,-,-,-,-,-,-,-,-
+1008000: global: MinorTrace: insts=-,-,-,-,-,-
+1008000: global: MinorTrace: insts=-,-,-
+1008000: global: MinorTrace: insts=-
+1008000: global: MinorTrace: insts=-
+1008000: global: MinorTrace: insts=0/48.1/143/629.1232,0/48.1/143/629.1233,0/48.1/143/629.1234,0/48.1/143/629.1235,,,,,,,,,,,,,,,,,,,,,,,,,
+1008000: global: MinorTrace: insts=,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+1008000: global: MinorTrace: branch=-,-
+1008000: global: MinorTrace: activity=4 stages=E,E,E,1,1
+1008500: system.cpu.execute: MinorInst: id=0/48.1/143/630.1236 addr=0x4214cd inst="  LEA_R_P : rdip   t7, t7" class=IntAlu flags="IsInteger IsMicroop IsDelayedCommit IsFirstMicroop" srcRegs=m153(miscellaneous[153]) destRegs=r23 extMachInst=                                                                                                                                                               0
+1008500: system.cpu.fetch2: MinorInst: id=0/48.1/143/637 addr=0x4214fd inst="(invalid)" class=No_OpClass flags="IsMacroop"
+1008500: system.cpu.fetch2: MinorInst: id=0/48.1/144/638 addr=0x421500 inst="(invalid)" class=No_OpClass flags="IsMacroop"
+1008500: global: MinorTrace: state=FetchRunning icacheState=IcacheRunning in_tlb_mem=0/1 streamSeqNum=48 lines=-
+1008500: global: MinorTrace: lines=
+1008500: global: MinorTrace: lines=0/48.1/145
+1008500: global: MinorTrace: lines=-,-
+1008500: global: MinorTrace: prediction=-,-
+1008500: global: MinorTrace: inputIndex=0 havePC=1 predictionSeqNum=1 insts=(0/48.1/143/637,0/48.1/144/638)
+1008500: global: MinorTrace: lines=0/48.1/144,R
+1008500: global: MinorTrace: insts=(0/48.1/143/637,0/48.1/144/638),(0/48.1/143/635,0/48.1/143/636)
+1008500: global: MinorTrace: insts=(0/48.1/143/631.1239,0/48.1/143/632.1240)
+1008500: global: MinorTrace: insts=(0/48.1/143/633,0/48.1/143/634),(0/48.1/143/635,0/48.1/143/636),R
+1008500: global: MinorTrace: insts=(0/48.1/143/631.1239,0/48.1/143/632.1240),(0/48.1/143/630.1237,0/48.1/143/631.1238)
+1008500: global: MinorTrace: state=MemoryRunning in_tlb_mem=0/1 stores_in_transfers=0 lastMemBarrier=0
+1008500: global: MinorTrace: addr=
+1008500: global: MinorTrace: addr=,
+1008500: global: MinorTrace: addr=W;0/48.1/143/629.1231;8,-,-,-,- num_unissued_stores=0
+1008500: global: MinorTrace: insts=(0/48.1/143/630.1237,0/48.1/143/631.1238),R,,,,,
+1008500: global: MinorTrace: busy=(1,1/0/2018/1232),(7,1/0/2018/1233),(23,1/0/2020/1236),(91,1/0/2018/1232)
+1008500: global: MinorTrace: insts=(0/48.1/143/629.1231,0/47.1/140/617.1209) inputIndex=0 streamSeqNum=48 stalled=1,1,E,E,E,E,E,E drainState=NotDraining isInbetweenInsts=0
+1008500: global: MinorTrace: insts=0/48.1/143/630.1236,0/48.1/143/629.1234,0/48.1/143/629.1232
+1008500: global: MinorTrace: insts=-,-,0/48.1/143/629.1233
+1008500: global: MinorTrace: insts=-,-,-
+1008500: global: MinorTrace: insts=-,-,-,-,-,-,-,-,-
+1008500: global: MinorTrace: insts=-,-,-,-,-,-
+1008500: global: MinorTrace: insts=-,-,-
+1008500: global: MinorTrace: insts=-
+1008500: global: MinorTrace: insts=-
+1008500: global: MinorTrace: insts=0/48.1/143/629.1232,0/48.1/143/629.1233,0/48.1/143/629.1234,0/48.1/143/629.1235,0/48.1/143/630.1236,,,,,,,,,,,,,,,,,,,,,,,,
+1008500: global: MinorTrace: insts=,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+1008500: global: MinorTrace: branch=-,-
+1008500: global: MinorTrace: activity=5 stages=E,1,E,1,1
+1009000: system.cpu.execute: MinorInst: id=0/48.1/143/630.1237 addr=0x4214cd inst="  LEA_R_P : lea   rax, DS:[t0 + t7 + 0xfffffffffffe026c]" class=IntAlu flags="IsInteger IsMicroop IsLastMicroop" srcRegs=z,r23 destRegs=r0 extMachInst=                                                                                                                                                               0
+1009000: system.cpu.execute: MinorInst: id=0/48.1/143/631.1238 addr=0x4214d4 inst="  MOV_M_I : limm   t1, 0x1000" class=IntAlu flags="IsInteger IsMicroop IsDelayedCommit IsFirstMicroop" srcRegs= destRegs=r17 extMachInst=                                                                                                                                                               0
+1009000: global: MinorTrace: state=FetchRunning icacheState=IcacheRunning in_tlb_mem=0/1 streamSeqNum=48 lines=B
+1009000: global: MinorTrace: lines=
+1009000: global: MinorTrace: lines=0/48.1/145
+1009000: global: MinorTrace: lines=-,-
+1009000: global: MinorTrace: prediction=-,-
+1009000: global: MinorTrace: inputIndex=0 havePC=1 predictionSeqNum=1 insts=B
+1009000: global: MinorTrace: lines=0/48.1/144,R
+1009000: global: MinorTrace: insts=-,(0/48.1/143/637,0/48.1/144/638)
+1009000: global: MinorTrace: insts=(0/48.1/143/633.1241,0/48.1/143/634.1242)
+1009000: global: MinorTrace: insts=(0/48.1/143/633,0/48.1/143/634),(0/48.1/143/635,0/48.1/143/636),(0/48.1/143/637,0/48.1/144/638)
+1009000: global: MinorTrace: insts=(0/48.1/143/633.1241,0/48.1/143/634.1242),(0/48.1/143/631.1239,0/48.1/143/632.1240)
+1009000: global: MinorTrace: state=MemoryRunning in_tlb_mem=0/0 stores_in_transfers=0 lastMemBarrier=0
+1009000: global: MinorTrace: addr=
+1009000: global: MinorTrace: addr=,
+1009000: global: MinorTrace: addr=-,-,-,-,- num_unissued_stores=0
+1009000: global: MinorTrace: insts=(0/48.1/143/631.1239,0/48.1/143/632.1240),R,,,,,
+1009000: global: MinorTrace: busy=(0,1/0/2021/1237),(17,1/0/2021/1238),(23,1/0/2020/1236)
+1009000: global: MinorTrace: insts=(0/48.1/143/629.1232,0/48.1/143/629.1233) inputIndex=0 streamSeqNum=48 stalled=1,E,E,E,E,E,E,E drainState=NotDraining isInbetweenInsts=0
+1009000: global: MinorTrace: insts=0/48.1/143/630.1237,0/48.1/143/630.1236,0/48.1/143/629.1234
+1009000: global: MinorTrace: insts=0/48.1/143/631.1238,-,-
+1009000: global: MinorTrace: insts=-,-,-
+1009000: global: MinorTrace: insts=-,-,-,-,-,-,-,-,-
+1009000: global: MinorTrace: insts=-,-,-,-,-,-
+1009000: global: MinorTrace: insts=-,-,-
+1009000: global: MinorTrace: insts=-
+1009000: global: MinorTrace: insts=-
+1009000: global: MinorTrace: insts=0/48.1/143/629.1234,0/48.1/143/629.1235,0/48.1/143/630.1236,0/48.1/143/630.1237,0/48.1/143/631.1238,,,,,,,,,,,,,,,,,,,,,,,,
+1009000: global: MinorTrace: insts=,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+1009000: global: MinorTrace: branch=-,-
+1009000: global: MinorTrace: activity=4 stages=E,E,E,1,1
+1009500: system.cpu.fetch1: MinorLine: id=0/48.1/145 size=64 vaddr=0x421540 paddr=0x21540
+1009500: system.cpu.execute: MinorInst: id=0/48.1/143/631.1239 addr=0x4214d4 inst="  MOV_M_I : st   t1, SS:[rbp + 0xfffffffffffffe90]" class=MemWrite flags="IsInteger IsStore IsMicroop IsLastMicroop" srcRegs=z,r5,r17,m154(miscellaneous[154]) destRegs= extMachInst=                                                                                                                                                               0
+1009500: system.cpu.execute: MinorInst: id=0/48.1/143/632.1240 addr=0x4214df inst="  MOV_M_R : st   rax, SS:[rbp + 0xfffffffffffffea8]" class=MemWrite flags="IsInteger IsStore IsMicroop IsLastMicroop IsFirstMicroop" srcRegs=z,r5,r0,m154(miscellaneous[154]) destRegs= extMachInst=                                                                                                                                                               0
+1009500: system.cpu.execute: MinorInst: id=0/48.1/143/633.1241 addr=0x4214e6 inst="  MOV_R_M : ld   rax, DS:[rdx]" class=MemRead flags="IsInteger IsLoad IsMicroop IsLastMicroop IsFirstMicroop" srcRegs=z,r2,m155(miscellaneous[155]) destRegs=r0 extMachInst=                                                                                                                                                               0
+1009500: system.cpu.execute: MinorInst: id=0/48.1/143/634.1242 addr=0x4214e9 inst="  MOV_M_I : limm   t1, 0x37f" class=IntAlu flags="IsInteger IsMicroop IsDelayedCommit IsFirstMicroop" srcRegs= destRegs=r17 extMachInst=                                                                                                                                                               0
+1009500: system.cpu.fetch2: MinorInst: id=0/48.1/144/639 addr=0x421504 inst="(invalid)" class=No_OpClass flags="IsMacroop"
+1009500: system.cpu.fetch2: MinorInst: id=0/48.1/144/640 addr=0x42150a inst="(invalid)" class=No_OpClass flags="IsMacroop"
+1009500: global: MinorTrace: state=FetchRunning icacheState=IcacheRunning in_tlb_mem=0/0 streamSeqNum=48 lines=B
+1009500: global: MinorTrace: lines=
+1009500: global: MinorTrace: lines=
+1009500: global: MinorTrace: lines=0/48.1/145,-
+1009500: global: MinorTrace: prediction=-,-
+1009500: global: MinorTrace: inputIndex=8 havePC=1 predictionSeqNum=1 insts=(0/48.1/144/639,0/48.1/144/640)
+1009500: global: MinorTrace: lines=0/48.1/144,R
+1009500: global: MinorTrace: insts=(0/48.1/144/639,0/48.1/144/640),-
+1009500: global: MinorTrace: insts=(0/48.1/143/634.1243,0/48.1/143/635.1244)
+1009500: global: MinorTrace: insts=(0/48.1/143/635,0/48.1/143/636),(0/48.1/143/637,0/48.1/144/638),R
+1009500: global: MinorTrace: insts=(0/48.1/143/634.1243,0/48.1/143/635.1244),(0/48.1/143/633.1241,0/48.1/143/634.1242)
+1009500: global: MinorTrace: state=MemoryRunning in_tlb_mem=0/0 stores_in_transfers=0 lastMemBarrier=0
+1009500: global: MinorTrace: addr=
+1009500: global: MinorTrace: addr=,
+1009500: global: MinorTrace: addr=-,-,-,-,- num_unissued_stores=0
+1009500: global: MinorTrace: insts=R,,,,,,
+1009500: global: MinorTrace: busy=(0,1/0/2021/1237),(17,1/0/2021/1238),(23,1/0/2020/1236)
+1009500: global: MinorTrace: insts=(0/48.1/143/629.1234,0/48.1/143/629.1233) inputIndex=0 streamSeqNum=49 stalled=1,E,E,E,E,E,E,E drainState=NotDraining isInbetweenInsts=0
+1009500: global: MinorTrace: insts=-,0/48.1/143/630.1237,0/48.1/143/630.1236
+1009500: global: MinorTrace: insts=-,0/48.1/143/631.1238,-
+1009500: global: MinorTrace: insts=-,-,-
+1009500: global: MinorTrace: insts=-,-,-,-,-,-,-,-,-
+1009500: global: MinorTrace: insts=-,-,-,-,-,-
+1009500: global: MinorTrace: insts=-,-,-
+1009500: global: MinorTrace: insts=-
+1009500: global: MinorTrace: insts=-
+1009500: global: MinorTrace: insts=0/48.1/143/629.1235,0/48.1/143/630.1236,0/48.1/143/630.1237,0/48.1/143/631.1238,,,,,,,,,,,,,,,,,,,,,,,,,
+1009500: global: MinorTrace: insts=,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+1009500: global: MinorTrace: branch=UnpredictedBranch;49.1;0x4214ca;0/48.1/143/629.1234,-
+1009500: global: MinorTrace: activity=5 stages=E,1,E,1,1
